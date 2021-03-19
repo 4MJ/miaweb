@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 70px;
+  max-height: 80px;
 }
 
 #footer .logo img {
@@ -470,10 +470,16 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
 }
 #hero .know-more{
-  /* position: relative; */
-  /* align-self: center; */
-  /* left: 4rem; */
+  position: relative;
+  align-self: center;
+  left: 12rem;
+  top: 2rem;
   background-color: #B8FF33;
+  /* color: whitesmoke; */
+}
+
+#hero .know-more a{
+  color: black;
 }
 
 #hero .icon-box {
@@ -483,7 +489,9 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid rgba(255, 255, 255, 0.3);
   height: 100%;
   text-align: center;
-  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  /* border-radius: 50%;  */
+  /* numbers withhin circle and text outside. increase space withinb flex content*/
+  /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
 }
 
 #hero .icon-box i {
