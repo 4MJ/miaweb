@@ -2051,7 +2051,7 @@ strong {
 
 /* Main */
 
-#main {
+/* #main {
   padding: 5em 0 3em 0;
 }
 
@@ -2077,7 +2077,7 @@ strong {
       padding: 2em 0 0.1em 0;
     }
 
-  }
+  } */
 
   /* can go out two */
   /* Wrapper */
@@ -2881,7 +2881,7 @@ strong {
   
   /* Containers */
   
-    .container {
+    /* .container {
       margin-left: auto;
       margin-right: auto;
     }
@@ -2906,9 +2906,9 @@ strong {
   
     .container {
       width: 80em;
-    }
+    } */
   
-    @media screen and (max-width: 1680px) {
+    /* @media screen and (max-width: 1680px) {
   
       .container.\31 25\25 {
         width: 100%;
@@ -2932,9 +2932,9 @@ strong {
         width: 80em;
       }
   
-    }
+    } */
   
-    @media screen and (max-width: 1280px) {
+    /* @media screen and (max-width: 1280px) {
   
       .container.\31 25\25 {
         width: 100%;
@@ -2958,35 +2958,9 @@ strong {
         width: 65em;
       }
   
-    }
+    } */
   
-    @media screen and (max-width: 980px) {
-  
-      .container.\31 25\25 {
-        width: 100%;
-        max-width: 112.5%;
-        min-width: 90%;
-      }
-  
-      .container.\37 5\25 {
-        width: 67.5%;
-      }
-  
-      .container.\35 0\25 {
-        width: 45%;
-      }
-  
-      .container.\32 5\25 {
-        width: 22.5%;
-      }
-  
-      .container {
-        width: 90% !important;
-      }
-  
-    }
-  
-    @media screen and (max-width: 736px) {
+    /* @media screen and (max-width: 980px) {
   
       .container.\31 25\25 {
         width: 100%;
@@ -3010,9 +2984,9 @@ strong {
         width: 90% !important;
       }
   
-    }
+    } */
   
-    @media screen and (max-width: 480px) {
+    /* @media screen and (max-width: 736px) {
   
       .container.\31 25\25 {
         width: 100%;
@@ -3036,7 +3010,33 @@ strong {
         width: 90% !important;
       }
   
-    }
+    } */
+  
+    /* @media screen and (max-width: 480px) {
+  
+      .container.\31 25\25 {
+        width: 100%;
+        max-width: 112.5%;
+        min-width: 90%;
+      }
+  
+      .container.\37 5\25 {
+        width: 67.5%;
+      }
+  
+      .container.\35 0\25 {
+        width: 45%;
+      }
+  
+      .container.\32 5\25 {
+        width: 22.5%;
+      }
+  
+      .container {
+        width: 90% !important;
+      }
+  
+    } */
   
   /* Grid */
   
