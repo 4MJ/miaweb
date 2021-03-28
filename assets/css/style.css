@@ -500,7 +500,7 @@ video#bgvideo {
 }
 
 #hero .icon-box {
-  padding: 30px 20px;
+  padding: 20px 20px;
   transition: ease-in-out 0.3s;
   background-color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -517,7 +517,7 @@ video#bgvideo {
   color: #ffc451;
 }
 
-#hero .icon-box h3 {
+#hero h3 {
   font-weight: 700;
   margin: 10px 0 0 0;
   padding: 0;
@@ -526,14 +526,15 @@ video#bgvideo {
   line-height: 26px;
 }
 
-#hero .icon-box h3 a {
+#hero h3 a {
   /* color: #fff; */
-  color: #B8FF33;
+  /* color: #B8FF33; */
+  color: #000;
   transition: ease-in-out 0.3s;
 }
 
-#hero .icon-box h3 a:hover {
-  color: #ffc451;
+#hero h3 a:hover {
+  color: #fff;
 }
 
 #hero .icon-box:hover {
