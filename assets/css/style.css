@@ -308,13 +308,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
-  /* position: fixed; */
-  top: 20px;
+  position: absolute;
+  /* position: relative; */
+  top: 30px;
   right: 15px;
   z-index: 9998;
   border: 0;
   background: none;
-  font-size: 24px;
+  font-size: 40px;
   transition: all 0.4s;
   outline: none !important;
   line-height: 1;
