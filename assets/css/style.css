@@ -451,6 +451,10 @@ video#bgvideo {
   height: 70vh;
   background:#ffc451 ;
   position: relative;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: justify;
 }
 
 #hero:before {
@@ -503,8 +507,8 @@ video#bgvideo {
 #hero .icon-box {
   padding: 20px 20px;
   transition: ease-in-out 0.3s;
-  background-color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* background-color: #fff; */
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
   height: 100%;
   text-align: center;
   /* border-radius: 50%;  */
@@ -516,6 +520,7 @@ video#bgvideo {
   font-size: 32px;
   line-height: 1;
   color: #ffc451;
+  color: #ffff;
 }
 
 #hero h3 {
@@ -530,7 +535,8 @@ video#bgvideo {
 #hero h3 a {
   /* color: #fff; */
   /* color: #B8FF33; */
-  color: #000;
+  /* color: #000; */
+  color: #ffff;
   transition: ease-in-out 0.3s;
 }
 
