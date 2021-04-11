@@ -2789,7 +2789,7 @@ strong {
 				.wrapper.style3 button.alt,
 				.wrapper.style3 .button.alt {
 					background-color: transparent;
-					box-shadow: inset 0 0 0 2px #fff;
+					/* box-shadow: inset 0 0 0 2px #fff; */
 					color: #fff !important;
 				}
 
