@@ -133,7 +133,7 @@
                                      be promoting socio-economic development and creature while
                                       guaranteeing a more prosperous Africa.</p>
                             </div>
-
+                            <button id = "payunit-pay">Pay Now</button>
                         </div>
                         <!--//col-12-->
                     </div>
@@ -242,6 +242,26 @@
 
     <!-- Template Main JS File -->
     <script src="../js/main.js"></script>
+    <script type="module">
+      import { PayUnit } from "https://cdn.jsdelivr.net/npm/payunitjs@1.0.4/dist/payunit.min.js";
+      PayUnit(
+        {
+          apiUsername: "payunit_sand_ITNeZJDh6",
+          apiPassword: "2634165a-d027-4187-bfbd-b8d815962c24",
+          x_api_key: "44892cac179b942beb50584c69c2ef61ddb4ee32",
+          mode: "test",
+        },
+        {
+          return_url: "http://127.0.0.1:5500/assets/pages/support.html",
+          notify_url: "",
+          description: "For MIA payments",
+          purchaseRef: "MIABooks",
+          total_amount: "600",
+          name: "MIA",
+          currency: "XAF"
+        }
+      );
+    </script>
 
 </body>
 
