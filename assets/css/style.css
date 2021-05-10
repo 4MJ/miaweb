@@ -482,6 +482,16 @@ video#bgvideo {
   font-family: "Poppins", sans-serif;
 }
 
+#home-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 #hero h1 span {
   color: #ffc451;
 }
@@ -1754,7 +1764,7 @@ strong {
 }
 .accordion .area-1 {
 	height: 27rem;
-	background: url('../img/mia_img_folder/_MG_9130.jpg') center center no-repeat;
+	background: url('../img/ourApproach/3rd.png') center center no-repeat;
 	background-size: cover;
 }
 
