@@ -1692,6 +1692,29 @@ section {
 } 
 /* end of hover animation */
 
+/* =========================================
+                Clients
+============================================ */
+
+#clients .horizontal-heading {
+  margin-bottom: 30px;
+}
+
+#clients-list {
+  padding: 45px 0 0 0;
+}
+
+.client {
+  padding: 0 10px;
+  max-width: 150px;
+  margin: 0 auto;
+  line-height: 100px;
+}
+
+.client img {
+  display: inline-block !important;
+}
+
 /* Intro */
 .basic-1 .text-container {
   margin-top: 1.875rem;
@@ -1734,6 +1757,7 @@ strong {
 	background: url('../img/mia_img_folder/_MG_9130.jpg') center center no-repeat;
 	background-size: cover;
 }
+
 
 .accordion .accordion-container {
 	max-width: 90%;
@@ -4379,3 +4403,4 @@ strong {
       }
   
     }
+
